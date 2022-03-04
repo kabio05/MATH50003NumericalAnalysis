@@ -31,22 +31,23 @@ which is essential to  machine learning.
 3. [Decompositions](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notebooks/Decompositions.ipynb): we discuss algorithms for computing matrix decompositions (QR and PLU decompositions) and their use in solving linear systems.
 3. [Singular values and condition numbers](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notebooks/SingularValues.ipynb): we discuss vector and
 matrix norms, and condition numbers for matrices, and the singular value decomposition.
-7. Differential Equations: we discuss the numerical solution of linear differential equations, 
+7. [Differential Equations](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notebooks/DifferentialEquations.ipynb): we discuss the numerical solution of linear differential equations, 
 including both time-dependent ordinary differential equations and boundary value problems, by reduction to linear systems.
 
 
 **Part III: Computing with functions**
 
-1. Fourier series: we discuss Fourier series and their usage in numerical computations
+1. [Fourier series](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notebooks/Fourier.ipynb): we discuss Fourier series and their usage in numerical computations
 via the fast Fourier transform.
 2. Orthogonal Polynomials: we discuss orthogonal polynomials—polynomials orthogonal 
 with respect to a prescribed weight—and their usage in numerical computations.
-3. Integration: we discuss ways to approximate integrals, both definite and indefinite, using orthogonal polynomials and interpolation.
+3. Applications: we discuss applications of Fourier series and orthogonal polynomials to
+interpolation, fast multiplication of polynomials, computing derivatives, solving differential equations.
 
 ## Assessment
 
-1. Practice late-term exam (computer-based Julia exam, not for credit): 4 March 2022 (TBC)
-2. Late-term exam (computer-based Julia exam): 18 March 2022
+1. Practice late-term exam (computer-based Julia exam, not for credit, released on Blackboard): 4 March 2022, 3–5pm (1 hour exam, 1 hour upload/download)
+2. Late-term exam (computer-based Julia exam, released on Blackboard): 18 March 2022, 3–5pm (1 hour exam, 1 hour upload/download)
 3. Practice final exam (pen-and-paper, not for credit): Summer Term (TBC)
 3. Final exam (pen-and-paper): Summer Term (TBC)
 
@@ -55,7 +56,17 @@ with respect to a prescribed weight—and their usage in numerical computations.
 1. [Week 1](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week1.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week1s.ipynb)): Binary representation, integers, floating point numbers, and interval arithmetic
 2. [Week 2](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week2.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week2s.ipynb)): Finite-differences, dual numbers, and Newton iteration
 3. [Week 3](https://nbviewer.org/github/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week3.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week3s.ipynb)): dense, triangular, banded, permutation, rotation and reflection matrices
-4. [Week 4](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week4.ipynb): least squares, QR and PLU decompositions
+4. [Week 4](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week4.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week4s.ipynb)): least squares, QR and PLU decompositions
+4. [Week 5](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week5.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week5s.ipynb)): positive definite matrices, Cholesky, and SVD
+4. [Week 6](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week6.ipynb): 
+Condition numbers, indefinite integration, and Euler methods
+5. [Week 7](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/week7.ipynb): 
+Two point boundary value problems, convergence, and Fourier series
+
+
+Additional problem sheets:
+
+1. [Julia Problem Sheet](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/juliasheet.ipynb)
 
 
 ## Reading List
@@ -83,6 +94,13 @@ with respect to a prescribed weight—and their usage in numerical computations.
 7. [Gram Schmidt and Reduced QR](lectures/GramSchmidt.jpg)
 7. [Householder and QR](lectures/Householder.jpg)
 7. [PLU Decomposition](lectures/PLU.jpg)
+7. [Matrix Norms](lectures/MatrixNorms.jpg)
+7. [Singular Value Decomposition](lectures/SVD.jpg)
+7. [Cholesky](lectures/Cholesky.jpg)
+7. [Condition Numbers](lectures/ConditionNumbers.jpg)
+7. [Indefinite Integration](lectures/IndefiniteIntegration.jpg)
+7. [Euler Method](lectures/EulerMethod.jpg)
+
 
 
 
